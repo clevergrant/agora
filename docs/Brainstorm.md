@@ -44,6 +44,15 @@ Stakeholders can propose changes to the mechanics of the app. These changes will
 
 - each post is an NFT so if user follows you, they have key to that NFT and can view whenever they want until it expires
 - when post expires, keys are burned? (smart contract)
+- since ethereum refunds when you destroy blocks, we can use that to pay to keep certain posts online forever
+- Play around with the idea of basing the rate of decay of a post on the total percentage of the entire platform that wants more people to see it
+	- e.g. if more than 50% of the platform clicked "promote", it earns a spot to live on the platform forever
+	- maybe the percentage of promotions also goes into the calculation of how much of the ethereum refunds goes to keeping that post online
+	- maybe we can also calculate the rate of decay based on the percentage of promotions vs demotions
+	- maybe post only decays if under 50% threshold
+	- maybe we have a special agora called the library of alexandria that holds only posts that are above the 50% threshold
+	- maybe that's what Agora is?
+	- either way, over time the collection would naturally gravitate towards posts that the most people want to be seen
 
 # Known Issues
 
